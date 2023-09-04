@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(228, 11%, 9%);
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10% auto auto auto;
+  padding: 25px;
+  background: hsl(221, 19%, 17%);
+  border-radius: 30px;
+  width: 400px;
+}
+.star {
+  background-color: hsl(215, 18%, 19%);
+  text-align: start;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+#mainStar {
+  margin: 14px 0px 0px 14px;
+}
+
+.header {
+  text-align: start;
+  margin-top: 25px;
+  color: hsl(216, 24%, 96%);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.text {
+  text-align: start;
+  margin-top: 25px;
+  color: hsl(215, 9%, 64%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.numbers {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: hsl(215, 18%, 19%);
+  border: none;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: hsl(215, 9%, 64%);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 24%, 96%);
+}
+
+button:focus {
+  background-color: hsl(215, 9%, 64%);
+  color: hsl(216, 24%, 96%);
+}
+
+.submitButton {
+  margin-top: 25px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 24%, 96%);
+  width: 100%;
+  height: 35px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: hsl(216, 24%, 96%);
+  color: hsl(25, 97%, 53%);
+}
+
+.thankYouImage {
+  margin-top: 25px;
+}
+
+.selected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto 0 auto;
+  background-color: hsl(210, 19%, 19%);
+  color: hsl(25, 95%, 62%);
+  font-size: 14px;
+  height: 25px;
+  width: 175px;
+  border-radius: 30px;
+}
+
+.submitHeader {
+  margin-top: 25px;
+  color: hsl(216, 24%, 96%);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.submitBody {
+  margin: 25px 0 25px 0;
+  color: hsl(215, 9%, 64%);
+  font-size: 16px;
+  font-weight: 400;
+}
